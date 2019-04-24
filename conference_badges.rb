@@ -30,5 +30,5 @@ end
 # end
 
 def printer(attendees)
-
+  puts badge_maker(attendees)
 end

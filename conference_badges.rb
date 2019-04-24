@@ -30,10 +30,8 @@ end
 # end
 
 def printer(attendees)
-  counter = 0
-  batch_badge_creator.each do |phrase|
-    puts batch_badge_creator[counter]
-    counter += 1
+  batch_badge_creator(attendees).each do |phrase|
+    puts phrase
   end
-
+  
 end

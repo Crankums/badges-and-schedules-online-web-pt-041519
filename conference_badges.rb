@@ -12,10 +12,8 @@ def assign_rooms(attendees)
     room_number += 1
     "Hello, #{name}! You'll be assigned to room #{room_number}!"
   end
-end
-
-
-
+end    
+#Alternate:
 #   room_array = []
 #   room_number = 1
 #   attendees.each do |name|
